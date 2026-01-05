@@ -1,0 +1,8 @@
+{
+  "name": "mini-incremental",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf docs && mkdir -p docs && cp -r src/* docs/",
+    "dev": "npx serve src"
+  }
+}
